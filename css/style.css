@@ -1,19 +1,16 @@
-.flexboxmain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.flexbox {
-    display: flex;
-    align-items: center;
-}
-
 @media (min-width:1199.98px) {
+    .flexboxmain {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .width50 {
         width: 50%;
     }
     
     .flexbox {
         justify-content: center;
+        display: flex;
     }
 }
