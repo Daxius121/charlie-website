@@ -1,0 +1,19 @@
+.flexboxmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:1199.98px) {
+    .width50 {
+        width: 50%;
+    }
+    
+    .flexbox {
+        justify-content: center;
+    }
+}
