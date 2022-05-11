@@ -6,10 +6,29 @@
   font-size: 48px;
 }
 
+.md-36 {
+  font-size: 36px;
+}
+
 @media (max-width: 992px) {
   div iframe {
     width: 100%;
     height: 100%;
+  }
+}
+@media (max-width: 819px) {
+  .columnbreak {
+    width: 100%;
+  }
+}
+@media (min-width: 820px) {
+  .columnbreak2 {
+    width: 0%;
+  }
+}
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50%;
   }
 }
 
